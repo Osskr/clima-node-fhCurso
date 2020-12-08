@@ -8,7 +8,7 @@ const getClima = async (lat, lon) =>{
             units: 'metric',
             lat:lat,
             lon:lon,
-            appid: '2ea8dee4aab7a5c0145bac0fa4a34df9',
+            appid: '{apiKey}',
          }
       }).catch(e=>{
           //console.log(e.data)

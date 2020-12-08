@@ -9,7 +9,7 @@ const getLugarLatLng = async ( direccion ) => {
 
          params: {
           q:direccion,
-          apikey: '48f18603-a362-4d5e-9ca6-2be29a557ec7',
+          apikey: '{apiKey}',
          
         }
       })
